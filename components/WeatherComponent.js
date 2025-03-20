@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const WeatherComponent = async({lat, lon}) => {
     const weatherData = await getWeather(lat, lon);
-    console.log(weatherData)
+ 
   return (
     <Card>
     <h6 className="feature-name">Current Weather</h6>
